@@ -1,0 +1,16 @@
+//styles.scss
+
+
+//all imports here
+//Compass imports and mixins
+@import "compass";
+
+//Core partials - essentially different pieces of scss broken down. Separate file for each.
+@import "variables";
+@import "mixins";
+@import "base";
+@import "modules";
+
+
+//JS partials
+@import "customjs"
